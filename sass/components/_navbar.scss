@@ -1,4 +1,4 @@
-nav {
+.nav {
   color: #fff;
   @extend .z-depth-1;
   background-color: $primary-color;
@@ -135,7 +135,7 @@ nav {
   }
 }
 @media #{$medium-and-up} {
-  nav, nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
+  .nav, .nav .nav-wrapper i, nav a.button-collapse, nav a.button-collapse i {
     height: $navbar-height;
     line-height: $navbar-height;
   }
